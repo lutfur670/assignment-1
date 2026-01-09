@@ -153,6 +153,10 @@ nav .nav-button button:hover{
     font-size: 16px;
 }
 
+.hero-btn .middle{
+    vertical-align: middle;
+}
+
 
 /* card section */
 
