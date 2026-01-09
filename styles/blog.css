@@ -59,7 +59,9 @@ nav .nav-button button {
     font-weight: 600;
     cursor: pointer;
 }
-
+nav .nav-button button:hover{
+    background-color: #d0aa00;
+}
 
 /* degin hero */
 
@@ -101,6 +103,7 @@ nav .nav-button button {
     margin-top: 32px;
 }
 
+
 .hero-info .hero-button img{
     vertical-align: middle;
 }
@@ -114,6 +117,9 @@ nav .nav-button button {
     font-weight: 600;
     cursor: pointer;
 }
+.hero-button .button1:hover{
+    background-color: #d0aa00;
+}
 .hero-button .button2{
     padding: 13px 16px;
     background: none;
@@ -125,14 +131,18 @@ nav .nav-button button {
     cursor: pointer;
 }
 
+.hero-button .button2:hover{
+    background-color: #d0aa00;
+}
 
 .hero-info .hero-btn{
     padding: 12px 20px;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 50px;
     border: none;
     color: #30B868;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 
@@ -244,6 +254,11 @@ nav .nav-button button {
     font-weight: 600;
     cursor: pointer;
     margin-bottom: 16px;
+}
+
+.green-button button:hover{
+    background-color: #d0aa00;
+    
 }
 
 
