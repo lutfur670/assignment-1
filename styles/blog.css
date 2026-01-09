@@ -37,6 +37,9 @@ nav{
     justify-content: space-between;
     padding:16px 120px;
     align-items: center;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 
 
@@ -90,14 +93,15 @@ nav .nav-button button:hover{
 }
 
 .hero-container .hero-info{
-    width: 80%;
-    max-width: 1360;
-    padding: 189px 120px 337px;
+    width: 100%;
+    max-width: 1360px;
     margin: 0 auto;
     text-align: center;
+    padding-top: 115px;
 }
 
 .hero-container .hero-info h1{
+
     color: #FFFFFF;
     padding: 16px 0px;
     font-size: 60px;
@@ -176,6 +180,8 @@ nav .nav-button button:hover{
     display: flex;
     justify-content: center;
     gap: 24px;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 
 .card-container .cards{
@@ -200,6 +206,7 @@ nav .nav-button button:hover{
 
 #feature-section{
     display: flex;
+    justify-content: center;
     gap: 60px;
     padding:120px;
     margin: 0 auto;
@@ -257,14 +264,17 @@ nav .nav-button button:hover{
 
 #challenge .challenge-box{
     background-color: #F7F6F2;
-    padding: 80px 40px 80px;
+    max-width: 1360px;
+    margin: 0 auto;
     border-radius: 12px;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 #challenge .challenge-box h2{
     font-size: 40px;
     margin-bottom: 16px;
+    padding-top: 80px;
 }
 
 #challenge .challenge-box p{
@@ -289,7 +299,10 @@ footer .footer-container{
     display: flex;
     justify-content: space-between;
     align-items: left;
-    padding: 120px 120px 80px;
+    width: 100%;
+    max-width: 1340px;
+    padding: 120px 0 80px;
+    margin: 0 auto;
     border-bottom: 1px solid #535353;
     
 }
