@@ -37,6 +37,18 @@ nav .menu ul{
     gap: 32px;
 }
 
+nav .menu ul a{
+    text-decoration: none;
+    font-weight: 500px;
+    color: black;
+}
+
+nav .menu ul a:visited{
+    text-decoration: none;
+    font-weight: 500px;
+    color: black;
+}
+
 
 nav .nav-button button {
     padding: 12px 16px;
@@ -103,7 +115,7 @@ nav .nav-button button {
     cursor: pointer;
 }
 .hero-button .button2{
-    padding: 12px 16px;
+    padding: 13px 16px;
     background: none;
     color: #ffffff;
     border: none;
@@ -112,6 +124,17 @@ nav .nav-button button {
     font-weight: 600;
     cursor: pointer;
 }
+
+
+.hero-info .hero-btn{
+    padding: 12px 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    color: #30B868;
+    font-weight: bold;
+}
+
 
 /* card section */
 
@@ -156,4 +179,140 @@ nav .nav-button button {
 .card-container .cards h3{
     padding: 16px 0;
     font-size: 24px;
+}
+
+
+/* feature section */
+
+#feature-section{
+    display: flex;
+    gap: 60px;
+    padding:120px;
+    margin: 0 auto;
+}
+
+#feature-section .feature-image img{
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.feature-info{
+    padding: 120px 0;
+}
+
+.feature-info h4{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: 500;
+}
+
+.feature-info h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.feature-info p{
+    color: #627382;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+.feature-info ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.feature-info li{
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.feature-info li img{
+    vertical-align: middle;
+    padding-right: 6px;
+}
+
+
+.green-button button{
+    padding: 12px 16px;
+    background-color: #30B868;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+
+/* challenge box */
+
+#challenge {
+   padding: 0 120px 120px;
+}
+
+#challenge .challenge-box{
+    background-color: #F7F6F2;
+    padding: 80px 40px 80px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#challenge .challenge-box h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+#challenge .challenge-box p{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#challenge .challenge-box img{
+    vertical-align: middle;
+}
+
+
+
+/* footer design */
+footer{
+     background-color: #001931;
+}
+footer .footer-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 120px 120px 80px;
+    
+}
+
+.footer-container .social{
+    color: #FFFFFF;
+    padding-right: 60px;
+}
+
+.footer-container .social a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-container .social a:visited{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-container .social h3{
+    margin-bottom: 16px;
+}
+
+
+footer .copyright{
+    color: #ffffff;
+    /* margin: 30px; */
+    padding: 30px 0px 30px;
+    text-align: center;
 }
